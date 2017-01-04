@@ -162,7 +162,6 @@
     <exec executable="${toolsdir}phpunit" failonerror="true">
       <arg value="--configuration"/>
       <arg path="${basedir}/build/phpunit.xml"/>
-      <arg value="--filter=test_it_fetches_wines" />
     </exec>
  </target>
 
